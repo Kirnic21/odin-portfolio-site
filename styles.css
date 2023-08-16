@@ -11,8 +11,10 @@
 .logo{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 24px;
     margin-left:200px;
+    margin-bottom: 21px;
     font-family: sans-serif;
 }
 .main{
@@ -41,15 +43,30 @@
 }
 .home{
     background-color: #512B81;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
 }
 
 .mainline{
-    padding-top:50px;
+    display:inline-block;
+    font-size: 40px;
+    padding-top:89px;
     color: white;
 }
 .mainline-paragraph{
     color: white;
+    font-size: 32px;
 }
 .meep{
     margin-left:200px;
+}
+.cat{
+    margin-top:60px; 
+    margin-right:98px;
+    margin-bottom: 575px;
+    margin-left: 162px;
+    border-radius: 35px;
+    height: 304px;
+    max-width: 271px;
 }
