@@ -14,33 +14,45 @@
         <h1 class = "main">Kirnic's Koya</h1>
         <p class = "submain">カーニク小屋</p>
     </div>
-    <div class = "navigation-menu">
-        <button class ="navigator">HOME</button>
-        <button class ="navigator">PROJECTS</button>
-        <button class ="navigator">CONTACTS</button>
-    </div>
+    <nav class = "navigation-menu">
+        <ul class = "navigation-list">
+        <li class ="navigator"><a href = "#home">HOME</a></button>
+        <li class ="navigator"><a href = "#projects-section">PROJECTS</a></button>
+        <li class ="navigator"><a href = "#contactme">CONTACTS</a></button>
+    </ul>
+    </nav>
 </header>
-<div class = "hamburger-menu"><img src="example-images/hamburger.png"></div>
-<section class = "home">
-    <div class = "presentation-image">
+<div class = "hamburger-menu">
+    <img src="example-images/hamburger.png" class = "hamburger-image">
+    <ul class = "navigation-list-hamburger ">
+        <li class ="navigator"><a href = "#home">HOME</a></button>
+        <li class ="navigator"><a href = "#projects-section">PROJECTS</a></button>
+        <li class ="navigator"><a href = "#contactme">CONTACTS</a></button>
+</div>
+<section id = "home">
+
 <div class  ="presentation">
     <h1 class = "mainline">Yo! Im Kirnic, a Full Stack Developer.</h1>
     <p class = "mainline-paragraph">The learning journey is not easy,but easy things are not worth it. Have been learning a lot and hope to learn a ton in the future </p>
     <div class = "buttons">
-    <button class = "project">PROJECTS</button>
+    <button class = "project" ><a href = "#projects-section">PROJECT</a></button>
     <div class = "or">
         or
     </div>
-    <button class = "contact">CONTACT</button>
+    <div class = "contact-arrow">
+    <button class = "contact"><a href = "#contactme" class = "contactme2">CONTACT</a></button>
+    <img class="arrow" src="example-images/arrow.png">
+</div>
+    
 </div>
 </div>
 
 <div class = "div-image">
 <img class = "cat" src="example-images/me.jpg " src="Its Kirnic,its me">
 </div>
-    </div>
+    
 </section>
-<section class = "projects-section">
+<section id = "projects-section">
     <div class="myprojects">MY PROJECTS</div>
     <div class = "projects">
         <div class = "project-container">
@@ -76,7 +88,7 @@
                         </div>            
     </div>
 </section>
-<section class = "contactme">
+<section id = "contactme">
     <div class ="contactstuff"> Contact me!</div>
     <div class ="contact-logos">
         <img class ="github" src ="example-images/github-mark.png" >
@@ -84,5 +96,6 @@
         
     </div>
 </section>
+<script src = "index.js"></script>
 </body>
 </html>
