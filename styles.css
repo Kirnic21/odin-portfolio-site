@@ -221,6 +221,10 @@ a { color: inherit;
     
     margin-left: 140px;
     margin-right: 148px;
+    transition:transform 1s ease-out 0.25s;
+}
+.project-container:hover{
+    transform: scale(1.1);
 }
 .description{
 
